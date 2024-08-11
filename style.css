@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 0 4vw;
+}
+#navbar{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+#logo h3{
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+}
+#centerlinks{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3vw;
+}
+#centerlinks h4{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+#menu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#menuicon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 0.3vw;
+    cursor: pointer;
+}
+.largeline{
+    cursor: pointer;
+    height: 0.1vw;
+    width: 1.8vw;
+    background-color: black;
+}
+.smallline{
+    height: 0.1vw;
+    width: 1.4vw;
+    background-color: black;
+}
+
+#imagediv{
+    height: 88%;
+    width: 100%;
+    padding-bottom: 2vw;
+    position: relative;
+}
+#imagedivwrapper{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+#imagedivcontainer{
+    height: 100%;
+    width: 100%;
+}
+#textcontainer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#textwrapper{
+    height: 100%;
+    width: 100%;
+    padding: 4vw;
+    padding-top: 5.1vw;
+}
+.uppertext{
+    height: 90%;
+    width: 100%;
+    color: #FFFFFF;
+}
+.uppertext h1{
+    font-size: 6.2vw;
+    line-height: 1.2;
+    font-weight: 450;
+}
+.uppertext h3{
+    margin-top: 0.8vw;
+    font-size: 1.25vw;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+#cta{
+    width: fit-content;
+    margin-top: 3.2vw;
+    padding: 0.8vw 3.2vw;
+    border-radius: 18px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    color: black;
+}
+#cta h2{
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+.lowerdiv{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#lrbutton{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 0.9vw;
+}
+.leftbuttondiv{
+    height: 2.8vw;
+    width: 2.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.leftbuttondiv i{
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+.rightbuttondiv{
+    height: 2.8vw;
+    width: 2.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid #fff;
+    transition: all 0.4s ease-out;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.leftbuttondiv:hover{
+    background-color: white;
+    color: black;
+}
+.rightbuttondiv:hover{
+    background-color: white;
+    color: black;
+}
+.rightbuttondiv i{
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+#scrollarrow h4{
+    color: #fff;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
+
+#arrowdiv{
+    margin-top: 0.5vw;
+    padding: 0.5vw 1vw;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+    background-color: #ffffff1a;
+}
+#arrowdiv i{
+    color: #fff;
+    font-size: 1.2vw;
+}
